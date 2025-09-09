@@ -38,7 +38,7 @@
 
 ##  Contato
 - 🌐 [assessorcaiomartins.com](https://assessorcaiomartins.com)  
-- 📧 seu@email.com  
+- 📧 contato@assessorcaiomartins.com  
 
 ---
 
