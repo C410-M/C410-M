@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlashDelivery — Seu Delivery Inteligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <div class="brand">
+          <span class="logo">FlashDelivery</span>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#menu">Cardápio</a></li>
+          <li><a href="#how-it-works">Como funciona</a></li>
+          <li><a href="#benefits">Vantagens</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Delivery sob medida para restaurantes ambiciosos</h1>
+          <p>
+            Lance sua operação de delivery com um aplicativo moderno, intuitivo e
+            pronto para automatizar pedidos, pagamentos e logística.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Solicitar demonstração</a>
+            <a class="btn secondary" href="#menu">Ver protótipo</a>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <strong>+350</strong>
+              <span>Pedidos por dia</span>
+            </div>
+            <div>
+              <strong>98%</strong>
+              <span>Satisfação dos clientes</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span>Suporte ao restaurante</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="app-frame">
+            <div class="status-bar">
+              <span>9:41</span>
+              <div class="status-icons">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="app-header">
+              <h2>Novos pedidos</h2>
+              <span class="badge">3</span>
+            </div>
+            <ul class="order-list">
+              <li>
+                <div>
+                  <h3>Combo Smash Bacon</h3>
+                  <p>Entrega em 15 min • Pagamento aprovado</p>
+                </div>
+                <span class="price">R$ 42,90</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Veggie Especial</h3>
+                  <p>Retirada no balcão • Pronto em 8 min</p>
+                </div>
+                <span class="price">R$ 32,00</span>
+              </li>
+              <li>
+                <div>
+                  <h3>Pizza Pepperoni</h3>
+                  <p>Motoboy a caminho • Entrega 21h</p>
+                </div>
+                <span class="price">R$ 68,50</span>
+              </li>
+            </ul>
+            <button class="btn primary full-width">Ver todos os pedidos</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="benefits" class="benefits section">
+        <div class="section-heading">
+          <span class="eyebrow">Para restaurantes que querem escalar</span>
+          <h2>Funcionalidades prontas para vender mais</h2>
+          <p>
+            Um kit completo para lançar sua operação digital com agilidade,
+            manter a qualidade e fidelizar clientes.
+          </p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Gestão de pedidos unificada</h3>
+            <p>
+              Centralize pedidos de site, app e WhatsApp em uma única interface
+              com atualização em tempo real.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Checkout rápido com múltiplos pagamentos</h3>
+            <p>
+              Pix, cartão, carteira digital ou pagamento na entrega. Tudo
+              configurável em poucos cliques.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Logística inteligente</h3>
+            <p>
+              Roteirização automática, acompanhamento do motoboy e alertas
+              instantâneos para o cliente.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Campanhas de fidelidade</h3>
+            <p>
+              Crie clubes de vantagens, cupons direcionados e notificações
+              automáticas com base no comportamento de compra.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="menu" class="menu section">
+        <div class="section-heading">
+          <span class="eyebrow">Experiência do usuário</span>
+          <h2>Cardápio digital personalizável</h2>
+          <p>
+            Use categorias, destaques e combos para aumentar o ticket médio. O
+            conteúdo abaixo é apenas um exemplo inicial.
+          </p>
+        </div>
+        <div class="menu-filters">
+          <button class="filter-btn active" data-category="all">Todos</button>
+          <button class="filter-btn" data-category="burgers">Burgers</button>
+          <button class="filter-btn" data-category="pizzas">Pizzas</button>
+          <button class="filter-btn" data-category="veggie">Veggie</button>
+          <button class="filter-btn" data-category="drinks">Bebidas</button>
+          <button class="filter-btn" data-category="desserts">Sobremesas</button>
+        </div>
+        <div class="menu-grid" id="menu-grid"></div>
+      </section>
+
+      <section id="how-it-works" class="timeline section">
+        <div class="section-heading">
+          <span class="eyebrow">Operação simplificada</span>
+          <h2>Do pedido à entrega em quatro passos</h2>
+        </div>
+        <div class="timeline-grid">
+          <article class="timeline-card">
+            <span class="step">1</span>
+            <h3>Cliente monta o pedido</h3>
+            <p>Escolhe produtos, adicionais e forma de entrega.</p>
+          </article>
+          <article class="timeline-card">
+            <span class="step">2</span>
+            <h3>Restaurante confirma</h3>
+            <p>Receba alertas sonoros e defina o tempo de preparo.</p>
+          </article>
+          <article class="timeline-card">
+            <span class="step">3</span>
+            <h3>Entrega acionada automaticamente</h3>
+            <p>Motoboys recebem rota otimizada com tempo estimado.</p>
+          </article>
+          <article class="timeline-card">
+            <span class="step">4</span>
+            <h3>Cliente avalia a experiência</h3>
+            <p>Feedbacks viram insights em dashboards de performance.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="metrics section">
+        <div class="metric">
+          <strong>3x</strong>
+          <span>Aumento médio de faturamento</span>
+        </div>
+        <div class="metric">
+          <strong>12 min</strong>
+          <span>Tempo médio de preparo</span>
+        </div>
+        <div class="metric">
+          <strong>+45%</strong>
+          <span>Clientes recorrentes</span>
+        </div>
+        <div class="metric">
+          <strong>0 erros</strong>
+          <span>Integração com PDV e estoque</span>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="section-heading">
+          <span class="eyebrow">Vamos conversar?</span>
+          <h2>Pronto para lançar seu delivery inteligente?</h2>
+          <p>
+            Preencha os campos abaixo para receber um diagnóstico gratuito e um
+            tour completo pelo produto.
+          </p>
+        </div>
+        <form class="contact-form">
+          <div class="form-grid">
+            <label>
+              Nome
+              <input type="text" name="name" placeholder="Ana Silva" required />
+            </label>
+            <label>
+              Restaurante
+              <input
+                type="text"
+                name="business"
+                placeholder="Burgers & Grill"
+                required
+              />
+            </label>
+            <label>
+              E-mail
+              <input
+                type="email"
+                name="email"
+                placeholder="contato@restaurante.com"
+                required
+              />
+            </label>
+            <label>
+              Faturamento mensal
+              <select name="revenue" required>
+                <option value="">Selecione</option>
+                <option>Até R$ 50 mil</option>
+                <option>R$ 50k – R$ 150k</option>
+                <option>Acima de R$ 150k</option>
+              </select>
+            </label>
+            <label class="full">
+              Qual o maior desafio hoje?
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Ex: integrar canais, reduzir cancelamentos..."
+              ></textarea>
+            </label>
+          </div>
+          <button type="submit" class="btn primary">Quero testar agora</button>
+          <p class="form-note">
+            Ao enviar, nossa equipe entra em contato em até 24h úteis com acesso
+            ao ambiente demo.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div>
+          <span class="logo">FlashDelivery</span>
+          <p>Sistema completo para operações de delivery de alto desempenho.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Termos de uso</a>
+          <a href="#">Política de privacidade</a>
+          <a href="mailto:contato@flashdelivery.app">Suporte</a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2024 FlashDelivery. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
