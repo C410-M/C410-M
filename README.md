@@ -1,4 +1,4 @@
-<h1 align="center">Caio Martins — Growth & Tech Marketing</h1>
+<h1 align="center">Caio Martins — B.I. & Growth Marketing</h1>
 
 > Transformando negócios em **máquinas de vendas**.  
 > Conecto dados, estratégia e automação inteligente (IA) num ecossistema digital que converte.
